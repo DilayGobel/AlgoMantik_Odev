@@ -1,0 +1,85 @@
+1. soru-
+
+Pyhton
+
+a = int(input("1. sayıyı giriniz: "))
+b = int(input("2. sayıyı giriniz: "))
+print("Sayıların toplamı: " + str(a + b))
+
+Pseudo
+
+1-Başla
+2- Kullanıcıdan sayı iste ve a'ya eşitle
+3- Kullanıcıdan sayı iste ve b'ye eşitle
+4- a ve b'yi topla ekrana yazdır
+5- Bitir
+
+
+
+2. soru-
+
+Pyhton
+
+i = 1
+toplam = 0
+while i < 101:
+    toplam += i
+    i += 1
+print("1'den 100'e kadar olan sayıların toplamı:", toplam)
+
+Pseudo
+
+1- Başla 
+2- İ'yi 1'e eşitle
+3- a'yı 0'a eşitle
+4- İ'yi i+1 ile topla
+5- Toplamı a ile topla 
+6- Sonucu a'ya eşitle
+7- i'yi 2 arttır
+8- İ 100'e eşit değilse 4. adıma dön
+9- a'yı ekrana yazdır
+10- Bitir
+
+
+
+
+3. soru- 
+
+Pyhton
+
+sayi = int(input("Sayı giriniz:"))
+asal_mi = True
+i = 2
+while i < sayi:
+    if sayi % i == 0:
+        print("Sayı asal değildir.")
+        asal_mi = False
+        break
+    i += 1
+if asal_mi and sayi > 1:
+    print("Sayı asal.")
+
+Pseudo
+
+1- Başla
+2- Kullanıcıdan sayı iste a'ya eşitle
+3- İ'yi 2 ye eşitle
+4- a i'ye tam bölünüyorsa 8. adıma git
+5- i a'ya eşitse 9. adıma git
+6- i'yi 1 arttır i'ye eşitle
+7- 4. adıma git
+8- Ekrana sayı asal değildir yazdır 10. adıma git
+9- Ekrana sayı asaldır yazdır 10. adıma git
+10- Bitir
+
+
+
+4. soru -
+
+def check_duplicates(arr):
+    unique_elements = set()
+    for element in arr:
+        if element in unique_elements:
+            return True;
+        unique_elements.add(element)
+    return False:
