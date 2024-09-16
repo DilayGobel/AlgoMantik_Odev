@@ -1,0 +1,1 @@
+# AlgoMantik_Odev
